@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    border-bottom: 2px solid white;
+}
+
+.logo img {
+    height: 80px;
+    /* Logo maior */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 179, 255);
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+
+.reibloco {
+    background-color: rgb(246, 246, 246);
+    flex-direction: column;
+}
+
+.bloco2 {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    order: 2;
+
+}
+
+.bloco3 {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.z {
+    border-radius: 50px;
+}
+
+footer {
+    background-color: black;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 50px;
+}
